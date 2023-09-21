@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resirvation</title>
+    <link rel="stylesheet" href="/assets/css/stylres.css">
+    <link rel="stylesheet" href="/assets/css/foodhub.css">
+    <link rel="stylesheet" href="/assets/css/media_query.css">
+</head>
+<body>
+
+  <!-- - #HEADER -->
+
+<header>
+
+  <nav class="navbar">
+
+    <div class="navbar-wrapper">
+
+      <a href="/index.html">
+        <img src="./assets/images/logo.svg" alt="logo" width="130">
+      </a>
+
+      <ul class="navbar-nav">
+
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+
+        <li>
+          <a href="index.html#about" class="nav-link">About</a>
+        </li>
+
+        <li>
+          <a href="index.html#services" class="nav-link">Services</a>
+        </li>
+
+        <li>
+          <a href="index.html#menu" class="nav-link">Our Menu</a>
+        </li>
+        <li>
+          <a href="./Reservation.html">Online Reservation</a>
+        </li>
+
+      </ul>
+
+      </div>
+    </nav>
+
+</header>
+    <!-- Reservation Section -->
+
+    <section class="res">
+
+      <div class="c">
+
+          <form action="#" class="form">
+
+            <h2 class="h2 tc">Online Reservation</h2>
+
+            <p class="text tc">
+              Booking request <a href="tel:+917878910554" class="link">+91 7878910554</a> or fill out the order form
+            </p>
+
+            <div class="inputs">
+              <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input">
+
+              <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input">
+            </div>
+
+            <div class="inputs">
+
+              <div class="ic">
+                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                <select name="person" class="input">
+                  <option value="1">1 Person</option>
+                  <option value="2">2 Person</option>
+                  <option value="3">3 Person</option>
+                  <option value="4">4 Person</option>
+                  <option value="5">5 Person</option>
+                  <option value="6">6 Person</option>
+                  <option value="7">7 Person</option>
+                </select>
+
+                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="ic">
+                <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                <input type="date" name="date" class="input">
+
+                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div class="ic">
+                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                <select name="time" class="input">
+                  <option value="08:00am">08:00 am</option>
+                  <option value="09:00am">09:00 am</option>
+                  <option value="10:00am">10:00 am</option>
+                  <!-- Add more options if needed -->
+                </select>
+
+                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+              </div>
+
+            </div>
+
+            <textarea name="message" placeholder="Message" autocomplete="off" class="input"></textarea>
+
+            <button type="submit" class="btn">
+              Book
+            </button>
+
+          </form>
+
+      </div>
+
+    </section>
+</body>
+</html>
